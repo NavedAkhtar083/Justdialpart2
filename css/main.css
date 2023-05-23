@@ -9,7 +9,7 @@ body{
 
 }
 header{
-    height:89px;
+    min-height:89px;
     width:95%;
     margin:auto;
 }
@@ -31,7 +31,7 @@ main{
     
 }
 .mt-5.n_mt-5{
-    margin-top:5rem !important;
+    margin-top:8rem !important;
 
 }
 footer{
@@ -50,7 +50,12 @@ footer{
     height:97px;
 }
 
+@media screen and (max-width:576){
+    .n_form_col{
+        height:50px;
 
+    }
+}
 
 
 @media (min-width:1400px)
